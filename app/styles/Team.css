@@ -1,0 +1,97 @@
+.team {
+    padding: 100px 0;
+    background-color: #f4f4f9; /* Soft, professional background */
+    /* background-image: url('/path_to_pattern_image');  Optional: add subtle pattern to make it visually engaging */
+    background-size: cover;
+    color: #333;
+    text-align: center;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .section-title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #4a63f8; /* Brand primary color */
+    font-weight: bold;
+  }
+  
+  .startup-description {
+    font-size: 1.3rem;
+    color: #666;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto 60px;
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .team-member {
+    flex: 1;
+    max-width: 500px;
+    margin: 20px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1); /* Softer shadow for a modern touch */
+    transition: transform 0.3s ease;
+  }
+  
+  .team-member:hover {
+    transform: translateY(-10px); /* Subtle hover effect */
+  }
+  
+  .founder-img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 4px solid #4a63f8; /* Primary color for borders */
+  }
+  
+  h3 {
+    font-size: 1.8rem;
+    color: #4a63f8; /* Primary color for names */
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .contact-link {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: #ff5733; /* Accent color for email links */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .contact-link:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .team-members {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .team-member {
+      max-width: 90%;
+    }
+  }
+  

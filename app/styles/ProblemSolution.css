@@ -1,0 +1,87 @@
+.problem-solution {
+    background-color: #f9f9f9; /* Clean and soft background */
+    color: #333;
+    padding: 80px 0;
+    text-align: center;
+    position: relative;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  .section-heading h2 {
+    font-size: 2.8rem;
+    margin-bottom: 60px;
+    color: #4a63f8; /* Brand primary color for heading */
+    font-weight: bold;
+    position: relative;
+  }
+  
+  .section-heading h2::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: #ff5733; /* Highlight underline */
+    margin: 20px auto 0;
+    border-radius: 2px;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    flex: 1;
+    max-width: 480px;
+    margin: 20px;
+    padding: 40px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Soft shadow for modern look */
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px); /* Hover effect for interactivity */
+  }
+  
+  .icon {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .problem .icon {
+    color: #ff5733; /* Problem icon color */
+  }
+  
+  .solution .icon {
+    color: #4a63f8; /* Solution icon color */
+  }
+  
+  h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #666; /* Softer text color */
+  }
+  
+  @media (max-width: 768px) {
+    .content {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
